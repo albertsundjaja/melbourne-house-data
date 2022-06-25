@@ -16,7 +16,7 @@ The purpose of this project is to collect Melbourne house price data from auctio
 
 ## Architecture <a name="architecture"></a>
 
-[diagram](assets/melbourne_house_price.jpg)
+![diagram](assets/melbourne_house_price.jpg)
 
 The flow of the data collection starts from `CloudWatch Event` which is triggered weekly to call a `Python Lambda function` to scrap and collect auction data, do some data cleaning and store it in `RDS Postgres database`.
 
