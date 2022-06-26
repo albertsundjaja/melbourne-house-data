@@ -32,7 +32,7 @@ This project makes use of:
 
 ## Architecture <a name="architecture"></a>
 
-![diagram](assets/melbourne_house_price.jpg)
+![diagram](assets/diagram_20220626.jpg)
 
 The flow of the data collection starts from `CloudWatch Event` which is triggered weekly to send an event to SNS which will then trigger a `Python Lambda function` to scrap and collect auction data, do some data cleaning and store it in `RDS Postgres database`.
 
