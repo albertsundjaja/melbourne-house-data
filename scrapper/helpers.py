@@ -154,5 +154,4 @@ def extract_property_details(properties, headers):
 
         # sleep so that the website doesnt consider us as an attack attempt
         time.sleep(1)
-        break
     return properties
